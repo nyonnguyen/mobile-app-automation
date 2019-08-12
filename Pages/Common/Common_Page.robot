@@ -8,18 +8,6 @@ User Navigate To Beginner > Topic > "${path_1}" > "${path_2}"
     User Open Beginner Page
     Navigate To Beginner > Topic > "${path_1}" > "${path_2}"
 
-User Navigate To Advanced > Topic > "${path}"
-    User Open Advanced Page
-    Navigate To Advanced > Topic > "${path}"
-
-User Navigate To Beginner > General Test > "${path}"
-    User Open Beginner Page
-    Navigate To Beginner > General Test > "${path}"
-
-User Navigate To Advanced > General Test > "${path}"
-    User Open Advanced Page
-    Navigate To Advanced > General Test > "${path}"
-
 User Exit Current Test Page
     Exit Current Test Page
 

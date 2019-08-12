@@ -15,29 +15,12 @@ Click On Go Back Button
 
 # Menu / Tab Keywords
 
-Navigate To
-    [Arguments]  ${paths}
-    :FOR  ${path}  IN  @{paths}
-    \
-
 Navigate To Beginner > Topic > "${path_1}" > "${path_2}"
     #Click Element  ${TOPIC_TAB}
     Click On Element By Text  ${TEST_PAGE_LINK}  ${path_1}
     Click On Element By Text  ${TEST_PAGE_LINK}  ${path_2}
     #Sleep  10
     #Navigate To Test Page  ${path}
-
-Navigate To Advanced > Topic > "${path}"
-    Click Element  ${TOPIC_TAB}
-    Navigate To Test Page  ${path}
-
-Navigate To Beginner > General Test > "${path}"
-    Click Element  ${GENERAL_TEST_TAB}
-    Navigate To Test Page  ${path}
-
-Navigate To Advanced > General Test > "${path}"
-    Click Element  ${GENERAL_TEST_TAB}
-    Navigate To Test Page  ${path}
 
 # Test Page Keywords
 

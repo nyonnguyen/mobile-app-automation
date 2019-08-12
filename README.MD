@@ -60,6 +60,8 @@ DESIRE_CAPABILITIES:
 ## How to start
 Before executing any tests, make sure the emulator and Appium server are stated completely and the configuration is given correctly.
 
+Refer to [Step 2: Android Installation and Setup for installation details.](http://www.automationtestinghub.com/appium-tutorial)
+
 To start all tests:
 ```
 robot -P ./Libs -d Results Tests
