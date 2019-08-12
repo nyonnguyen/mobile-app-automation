@@ -14,7 +14,7 @@ PyYAML
 robotframework
 robotframework-appiumlibrary
 ```
-The required packages are listed in the [*requirements.txt*](requirements.txt) file.
+The required packages are listed in the [*requirements*](requirements) file.
 To install all required packages by executing command as follow:
 ```
 > pip install -r requirements.txt
