@@ -25,11 +25,11 @@ User Can Retake Statement Easy Test
 	When User Answers Topic Questions  ${statement_easy_2.RETAKE}
 	Then User Should See The Result Page
 
-User Can Check Answers On Statement Easy Test
-	[Tags]  statement_easy_3  test_done
-	[Setup]  User Answrer Statement Easy Test  ${statement_easy_3}
-	Given User Click On Check Your Answers Button
-	Then User Should See The Result Page
+# User Can Check Answers On Statement Easy Test
+# 	[Tags]  statement_easy_3  test_done
+# 	[Setup]  User Answrer Statement Easy Test  ${statement_easy_3}
+# 	Given User Click On Check Your Answers Button
+# 	Then User Should See The Result Page
 
 
 *** Keywords ***

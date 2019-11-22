@@ -40,7 +40,7 @@ Specify configurations for the project as following example and save it as [Test
 REMOTE_URL:  "http://127.0.0.1:4723/wd/hub"
 DESIRE_CAPABILITIES:
   platformName:     "Android"
-  deviceName:       "ntnhon:5554"
+  deviceName:       "nyon-android9:5554"
   platformVersion:  "9"
   app:              "App/englishgrammar.apk"
   appActivity:      "com.truatvl.englishgrammartests.activity.MainActivity"
@@ -48,14 +48,20 @@ DESIRE_CAPABILITIES:
 
 ```
 
-###### Start script
-*Notes:* This is for Windows used only.
-```
-1. START "Emulator" /MIN "%ANDROID_HOME%/emulator/emulator.exe" -avd ntnhon
+###### Start Emulator/Appium
+WINDOWS:
+1. START "Emulator" /MIN "%ANDROID_HOME%/emulator/emulator.exe" -avd nyon-android9
 2. appium
 ```
+LINUX/MACOS:
+1. emulator -avd nyon-android9
+2. open appium
+
 - Line 1 is used to start emulator where **_ntnhon_** is the emulator name (check by **_emulator -list-avds_**)
 - Line 2 is used to start **_Appium server_** 
+
+Notes: Appium Server should start with ANDROID_HOME set. Make sure you specify the path of Android SDK for ANDROID_HOME
+E.g. Users/Nyon/Library/Android/sdk
 
 ## How to start
 Before executing any tests, make sure the emulator and Appium server are stated completely and the configuration is given correctly.

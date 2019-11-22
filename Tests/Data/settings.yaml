@@ -1,7 +1,7 @@
 REMOTE_URL:  "http://127.0.0.1:4723/wd/hub"
 DESIRE_CAPABILITIES:
   platformName:     "Android"
-  deviceName:       "ntnhon:5554"
+  deviceName:       "nyon-android9:5554"
   platformVersion:  "9"
   app:              "App/englishgrammar.apk"
   appActivity:      "com.truatvl.englishgrammartests.activity.MainActivity"

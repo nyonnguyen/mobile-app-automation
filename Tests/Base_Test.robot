@@ -12,7 +12,7 @@ User Open Application
 	...  platformName=${DESIRE_CAPABILITIES.platformName}
 	...  appium:deviceName=${DESIRE_CAPABILITIES.deviceName}
 	...  appium:platformVersion=${DESIRE_CAPABILITIES.platformVersion}
-	...  app=${CURDIR}\\${DESIRE_CAPABILITIES.app}
+	...  app=${CURDIR}${/}${DESIRE_CAPABILITIES.app}
 	...  appActivity=${DESIRE_CAPABILITIES.appActivity}
 	...  automationName=${DESIRE_CAPABILITIES.automationName}
 
@@ -26,3 +26,4 @@ User Cleanup The Test Environment
 
 User Cleanup Test Case
   Capture Page Screenshot
+  Reset Application
